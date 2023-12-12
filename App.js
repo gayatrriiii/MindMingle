@@ -1,3 +1,16 @@
+Install Node.js and npm:
+Make sure you have Node.js installed, as it includes npm. You can download it here.
+Create a new React app:
+Open your terminal and run:
+
+npx create-react-app mindmingle-app
+cd mindmingle-app
+
+Replace the content of src/App.js with:
+
+
+
+
 import React, { useState } from 'react';
 import './App.css';
 
