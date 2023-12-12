@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.topic-bubble {
+    cursor: pointer;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.topic-bubble:hover {
+    background-color: #2980b9;
+}
